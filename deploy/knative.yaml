@@ -1,0 +1,14 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: u2net-http
+  namespace: default
+spec:
+  template:
+    spec:
+      containers:
+        - image: gcr.io/cyrildiagne-ml/u2net-http
+          resources:
+            limits:
+              nvidia.com/gpu: 1
+

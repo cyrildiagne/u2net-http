@@ -1,0 +1,6 @@
+.vscode
+.DS_Store
+*.pth
+venv
+U-2-Net
+__pycache__
