@@ -15,7 +15,7 @@ COPY resnet34-333f7ec4.pth /root/.torch/models/resnet34-333f7ec4.pth
 
 # Install production dependencies.
 COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy local code to the container image.
 COPY *.py ./
