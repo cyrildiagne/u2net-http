@@ -7,7 +7,7 @@ The deploy folder contains configuration files for deployment as serverless cont
 # Usage:
 
 ```bash
-docker run --rm -p 8080:80 gcr.io/cyrildiagne-ml/u2net-http
+docker run --rm -p 8080:80 docker.io/cyrildiagne/u2net-http
 ```
 
 # Test:
