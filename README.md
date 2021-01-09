@@ -53,5 +53,5 @@ curl https://download.pytorch.org/models/resnet34-333f7ec4.pth -o resnet34-333f7
 
 ```
 docker build -t u2net .
-docker run --rm -p 8080:8080 u2net
+docker run --rm -p 8080:80 u2net
 ```
